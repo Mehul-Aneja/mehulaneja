@@ -43,8 +43,8 @@ export default function Home() {
           </div>
 
           <div className="text-center p-6">
-            <p className="text-base pb-2 leading-6 text-cyan-100 max-w-screen-md mx-auto dark:text-slate-900">Hello! I'm a student at New York University studying Computer Science and Mathematics.</p>
-            <p className="text-base leading-6 text-cyan-100 max-w-screen-md mx-auto dark:text-slate-900">Some of my passion projects are on display here and more works can be found on my resume and Github. Feel free to look around and reach out to me if you'd like to connect!</p>
+            <p className="text-base pb-2 leading-6 text-cyan-100 max-w-screen-md mx-auto dark:text-slate-900">Hello! I&apos;m a student at New York University studying Computer Science and Mathematics.</p>
+            <p className="text-base leading-6 text-cyan-100 max-w-screen-md mx-auto dark:text-slate-900">Some of my passion projects are on display here and more works can be found on my resume and Github. Feel free to look around and reach out to me if you&apos;d like to connect!</p>
           </div>
 
           <div className="text-5xl flex justify-center gap-20 pb-16 text-gray-600">
