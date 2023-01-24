@@ -28,7 +28,7 @@ export default function Home() {
         <section className="min-h-screen">
 
           <nav className="pt-8 flex justify-between">
-            <div className="ml-3 transition ease-in-out delay-100 hover:scale-110"> <a className="bg-gradient-to-r from-cyan-500 to-teal-600 text-black px-4 py-2 rounded-md text-lg dark:text-white dark:from-black dark:to-black" href="https://drive.google.com/file/d/16N2rTYLtR0ybMqcgpIp3USMRT8FWinPQ/view?usp=sharing" target="_blank">Resume</a> </div>
+            <div className="ml-3 transition ease-in-out delay-100 hover:scale-110"> <a className="bg-gradient-to-r from-cyan-500 to-teal-600 text-black px-4 py-2 rounded-md text-lg dark:text-white dark:from-black dark:to-black" href="https://drive.google.com/file/d/16N2rTYLtR0ybMqcgpIp3USMRT8FWinPQ/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a> </div>
             <div className="mr-3"><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="text-cyan-100 cursor-pointer text-3xl transition ease-in-out delay-100 hover:scale-110 dark:text-slate-900" /></div>
           </nav>
 
