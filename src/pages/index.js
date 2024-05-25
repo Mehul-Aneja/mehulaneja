@@ -30,7 +30,7 @@ export default function Home() {
           <div className="text-center pt-12">
             <h2 className="text-6xl text-cyan-200 font-medium dark:text-black">Mehul Aneja</h2> 
             <h3 className="text-3xl pt-5 text-cyan-200 dark:text-slate-900">New York | mehulaneja123@gmail.com</h3>
-            <h3 className="text-3xl pb-10 text-cyan-200 dark:text-slate-900">Bachelor's in Computer Science & Mathematics @ New York University 2024</h3>
+            <h3 className="text-3xl pb-10 text-cyan-200 dark:text-slate-900">Bachelors in Computer Science & Mathematics @ New York University 2024</h3>
           </div>
 
           <div className="relative mx-auto rounded-full w-72 h-72 overflow-hidden">
