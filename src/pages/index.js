@@ -5,6 +5,7 @@ import Image from "next/image";
 import {useState} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import Mehul from "/public/Mehul.jpg"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
