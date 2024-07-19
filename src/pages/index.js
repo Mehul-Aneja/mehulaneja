@@ -5,9 +5,10 @@ import Image from "next/image";
 import {useState} from 'react';
 import { SocialIcon } from 'react-social-icons';
 import Mehul from "/public/Mehul.jpg"
-import { Analytics } from "@vercel/analytics/react"
+import dynamic from 'next/dynamic';
 
 const inter = Inter({ subsets: ['latin'] })
+const MouseParticles = dynamic(() => import('react-mouse-particles'), { ssr: false });
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,8 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <main className="bg-gradient-to-b from-black to-rose-900 pb-10 md:px-20 lg:px-40 dark:bg-gradient-to-b dark:from-white dark:to-teal-500">
-
+      <main className="bg-gradient-to-b from-black to-blue-900 pb-10 md:px-20 lg:px-40 dark:bg-gradient-to-b dark:from-white dark:to-teal-500">
+        <MouseParticles key={darkMode} g={1} color={darkMode ? ["#00FFFF", "#FFFFFF"] : "#0000FF"} cull="col,image-wrapper" level={6} />
         <section className="min-h-screen">
 
           <nav className="pt-8 flex justify-between">
